@@ -154,5 +154,12 @@ div[class="overlay"]:hover p{
 
 .navigation p:hover {
 	text-decoration: underline
-	}	
+	}
+
+
+.footer{
+	position: fixed;
+	left: 0%;
+	top : 100%;
+}		
 
