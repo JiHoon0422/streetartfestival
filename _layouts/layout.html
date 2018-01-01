@@ -1,0 +1,53 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>홍익거리미술전</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+<link rel="stylesheet" href="{{site.baseurl}}/layout.css">
+<script src= "{{site.baseurl}}/navigator.js"></script>
+</head>
+<body>
+{% include header.html %}
+<div class="contents-container">
+<div class="contents-body overall">
+	<div class="conLeft">
+		<img src="{{site.baseurl}}/images/proj/{{page.number}}.png" alt="">
+		<img src="{{site.baseurl}}/images/proj/{{page.number}}_2.png" alt="">
+		<img src="{{site.baseurl}}/images/proj/{{page.number}}_3.png" alt="">
+	</div>
+	<div class="conRight">
+	<p>The Hongik Street Art Festival : {{page.number}}</p>
+	<h2>{{page.title}}</h2><br>
+	<h3>일시</h3>
+	<p>{{page.open}}</p><br>
+	<h3>기조</h3>
+	<p>{{page.contents}}</p><br>
+	<h3>단원</h3>
+	<p>{{page.people}}</p><br>
+	<h3>성과</h3>
+	<p>{{page.outcome}}</p>
+	</div>
+</div>
+<div class="contents-body program hide">
+	
+</div>
+<div class="contents-body works hide">
+	
+</div>
+
+<div class="contents-body promotion hide">
+	
+</div>
+
+<div class="contents-body press hide">
+	
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>홍익거리미술전</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+	<script src="main.js"></script>	
+</head>
+<body>
+	
+	<div class="navigation">
+		a<p class="left">Menu</p>
+		<p class="logo">Hongik Univeristy Street Art Exhibition</p>
+	</div>
+	<div class="container">
+	</div>
+
+<div class="">
+	{% for post in site.posts %}
+	<ul>
+		<li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+	</ul>
+	{% endfor %}
+
+</div>
+
+</body>
+</html>

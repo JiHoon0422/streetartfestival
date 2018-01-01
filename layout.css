@@ -1,0 +1,181 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+
+body{
+	padding :0px;
+	margin:0px;
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+	background-color: black;
+}
+.header{
+	width : 100%;
+	height : 4em;
+	background: black;
+	margin:0px auto;
+	padding:0px;
+	position: relative;
+}
+
+.header h2{
+	position: absolute;
+	top : 30%;
+	left: 50%;
+	margin-right : -50%;
+	transform: translate(-50%, -50%);
+	-webkit-transition: .5s all;
+	-o-transition: .5s all;
+	transition: .5s all; 
+	z-index:1;
+	color:white;
+	font-size:1em;	
+	cursor:pointer;	
+	font-weight: 500;
+}
+
+.contents{}
+
+.contents .container{
+	width : 100%;
+	height : 5em;
+	background-color: #FFD700;
+	position: relative;
+	}
+
+.contents .container #selector{
+	position: absolute;
+	top : 50%;
+	left: 90%;
+	margin-right : -50%;
+	width : 200px;
+	height : 50px;
+	transform: translate(-50%, -50%);
+	-webkit-transition: .5s all;
+	-o-transition: .5s all;
+	transition: .5s all; 
+	z-index:1;
+	color:grey;
+	font-size:1em;
+	font-weight: 500;
+	border:0px;
+	}
+
+.contents .container img{
+	position: absolute;
+	top : 50%;
+	left: 13%;
+	margin-right : -50%;
+	transform: translate(-50%, -50%);
+	-webkit-transition: .5s all;
+	-o-transition: .5s all;
+	transition: .5s all; 
+	z-index:1;
+	color:white;
+	font-size:1.1em;
+	font-weight: 500;
+}
+.contents  ul{
+	width : 95%;
+	margin: 0px auto;
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-top:2em;
+    color:grey;
+    background-color: white;
+	}
+.contents ul li{
+	float:left;
+	width : 19.9%;
+	text-align: center;	
+	font-size:1em;
+	padding: 1.5em 0em 1.5em 0em;
+	border: #f2f2f2 solid 1px;
+	border-top: 0px;
+	border-left : 0px;
+	border-bottom: 0px;
+	cursor:pointer;
+	-webkit-transition:  .5s all;
+	-o-transition:  .5s all;
+	transition:  .5s all;: 
+	}
+
+.contents ul li:hover{
+	background-color: #FFD700;
+	color:black;
+	font-weight:500;
+	}
+
+
+.black{
+	background-color: #FFD700;
+	color:black;
+	font-weight:500;
+	border: 1px solid #FFD700;
+	}
+
+.white{
+	background-color: white;
+	color:grey;
+	font-weight:500;
+	}
+
+.contents-body{
+	width:95%;
+	margin:0px auto;
+	height : auto;
+	background-color: #f2f2f2;
+	display:flex;
+	-webkit-transition: 1s all;
+	-o-transition: 1s all;
+	transition: 1s all;: 
+	}
+
+.contents-body .conLeft{
+	width : 44%;
+	padding: 3%
+	}
+.contents-body .conRight{
+	width : 44%;
+	padding: 3%
+	}
+.contents-body .conLeft img{
+	width : 100%;
+}
+
+.contents-body .conRight p {
+	font-weight : 400;
+	font-size : .9em;
+	line-height: 180%;
+}
+
+.contents-body .conRight h2{
+	font-weight : bold;
+	font-size : 1.4em;
+	margin-bottom:.4em;
+	margin-top:.3em;	
+	line-height: 150%;
+}
+
+.contents-body .conRight h3{
+	font-weight : bold;
+	font-size : 1.2em;
+	margin-bottom:.5em;
+	margin-top:.3em;
+}
+
+.contents-body{
+	-webkit-transition: 1s all;
+	-o-transition: 1s all;
+	transition: 1s all;: 	
+}
+
+.navi li:first-child {
+	/*border-left:1px solid #f2f2f2 !important;*/
+}
+
+.hide{
+	display:none;
+}
+
+
